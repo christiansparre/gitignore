@@ -122,6 +122,9 @@ publish/
 packages/
 ## TODO: If the tool you use requires repositories.config, also uncomment the next line
 !packages/repositories.config
+!.nuget/
+!.nuget/*.exe
+*.nupkg
 
 # Windows Azure Build Output
 csx/
